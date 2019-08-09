@@ -1,0 +1,56 @@
+body {
+  padding-top: 70px;
+}
+
+    .thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+.thumbnail {
+    padding:0 ;
+}
+.center{
+    width:30%;
+    margin:25px auto;
+}
+.headercenter{
+    text-align: center;
+}
+.thumbnail a>img, .thumbnail>img {
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    width: 100%;
+}
+
+.caption-full {
+    padding: 9px;
+}
+
+.inline {
+display: inline
+    
+}
+
+.form-dec {
+ margin: 25px auto;
+ width: 90%;
+}
+
+@media (min-width: 600px) {
+  .form-dec {
+    width: 50%;
+  }
+}
+
+@media (min-width: 900px) {
+  .form-dec{
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-dec {
+    width: 30%;
+  }
+}
